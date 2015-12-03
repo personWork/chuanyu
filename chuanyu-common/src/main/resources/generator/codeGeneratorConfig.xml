@@ -42,6 +42,7 @@
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		
+		<!-- 配置数据表名和对应的实体类名称，便于生成对应的实体类 -->
 	    <table tableName="USER" domainObjectName="User">
 	    	<property name="useActualColumnNames" value="false" />
 	    </table>
